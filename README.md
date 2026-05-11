@@ -26,4 +26,4 @@ Este sistema automatiza la detección de ofertas aéreas para la aerolínea Avia
 ![Resultado](evidencias/correo llegando tanto SNS y SES.png)
 
 ### 8. Análisis de Costos ($0.06 USD)
-![Costos](evidencias/Ecosto estimado.png)
+![Costos](evidencias/costo estimado.png)
