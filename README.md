@@ -1,19 +1,26 @@
 # ✈️ Proyecto: Monitor de Precios Avianca (Serverless)
 
-Este sistema automatiza la detección de ofertas aéreas utilizando AWS.
+Este sistema automatiza la detección de ofertas aéreas utilizando servicios de AWS. La arquitectura está diseñada para ser escalable y de bajo costo.
 
 ## 📸 Evidencias del Proyecto
 
-Haga clic en los siguientes enlaces para ver las capturas de pantalla del despliegue:
+Haga clic en los siguientes enlaces para ver las capturas de pantalla del despliegue técnico:
 
-1. [📂 Arquitectura del Sistema](evidencias/Diagrama%20AWS.png)
-2. [📂 Configuración de Permisos IAM](evidencias/se%20agregan%20los%20permisos.png)
-3. [📂 Base de Datos DynamoDB](evidencias/tablas%20pobladas.png)
-4. [📂 Lógica en AWS Lambda](evidencias/escribimos%20la%20funci%C3%B3n%20lambda.png)
-5. [📂 Disparador EventBridge](evidencias/trigger%20y%20conexi%C3%B3n%20verificados.png)
-6. [📂 Prueba de Envío SES](evidencias/mostrando%20correos%20SES.png)
-7. [📂 Alertas SNS y SES](evidencias/correo%20llegando%20tanto%20SNS%20y%20SES.png)
-8. [📂 Análisis de Costos Mensuales](evidencias/costo%20estimado.png)
+1. [📂 Arquitectura del Sistema](evidencias/Diagrama_AWS.png)
+2. [📂 Configuración de Permisos IAM](evidencias/se_agregan_los_permisos.png)
+3. [📂 Base de Datos DynamoDB](evidencias/tablas_pobladas.png)
+4. [📂 Lógica en AWS Lambda](evidencias/escribimos_la_funcion_lambda.png)
+5. [📂 Disparador EventBridge](evidencias/trigger_y_conexion_verificados.png)
+6. [📂 Prueba de Envío SES](evidencias/mostrando_correos_SES.png)
+7. [📂 Alertas SNS y SES](evidencias/correo_llegando_tanto_SNS_y_SES.png)
+8. [📂 Análisis de Costos Mensuales](evidencias/costo_estimado.png)
 
 ---
-*Nota: Si algún enlace falla, puede navegar manualmente a la carpeta [evidencias](./evidencias) para ver los archivos.*
+
+## 🛠️ Tecnologías Utilizadas
+- **Lenguaje:** Python 3.x
+- **Servicios Cloud:** AWS Lambda, DynamoDB, SES, SNS, EventBridge.
+- **Seguridad:** IAM Roles con políticas de mínimo privilegio.
+
+---
+*© 2026 Oswaldo Velez - cloud architect*
