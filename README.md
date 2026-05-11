@@ -22,5 +22,9 @@ Haga clic en los siguientes enlaces para ver las capturas de pantalla del despli
 - **Servicios Cloud:** AWS Lambda, DynamoDB, SES, SNS, EventBridge.
 - **Seguridad:** IAM Roles con políticas de mínimo privilegio.
 
+## 🛠️ Galería Técnica Completa
+Para revisar el despliegue detallado de los 30 pasos de configuración, puede acceder directamente a la carpeta de evidencias:
+
+👉 **[Ver todas las evidencias técnicas (30 capturas)](./Evidencias/)**
 ---
 *© 2026 Oswaldo Velez - cloud architect*
