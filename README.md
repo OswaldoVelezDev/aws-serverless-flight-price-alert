@@ -1,29 +1,16 @@
 # ✈️ Proyecto: Monitor de Precios Avianca (Serverless)
 
-Este sistema automatiza la detección de ofertas aéreas utilizando AWS.
+## 📸 Evidencias del Proyecto
 
-## 📸 Evidencias Principales
+Para facilitar la revisión, puede ver las capturas de pantalla del despliegue técnico aquí:
 
-### 1. Arquitectura del Sistema
-![Arquitectura](<evidencias/Diagrama AWS.png>)
+1. [Arquitectura del Sistema](./evidencias/Diagrama%20AWS.png)
+2. [Configuración de Permisos IAM](./evidencias/se%20agregan%20los%20permisos.png)
+3. [Base de Datos DynamoDB](./evidencias/tablas%20pobladas.png)
+4. [Lógica en AWS Lambda](./evidencias/escribimos%20la%20funci%C3%B3n%20lambda.png)
+5. [Disparador EventBridge](./evidencias/trigger%20y%20conexi%C3%B3n%20verificados.png)
+6. [Prueba de Envío SES](./evidencias/mostrando%20correos%20SES.png)
+7. [Análisis de Costos Mensuales](./evidencias/costo%20estimado.png)
 
-### 2. Roles y Permisos (IAM)
-![Seguridad](<evidencias/se agregan los permisos.png>)
-
-### 3. Base de Datos en DynamoDB
-![Datos](<evidencias/tablas pobladas.png>)
-
-### 4. Función Lambda (Lógica en Python)
-![Lambda](<evidencias/escribimos la función lambda.png>)
-
-### 5. Automatización (EventBridge)
-![Reloj](<evidencias/trigger y conexión verificados.png>)
-
-### 6. Correo Electrónico Recibido (SES)
-![Resultado](<evidencias/mostrando correos SES.png>)
-
-### 7. Correo Electrónico recibido (SNS y SES)
-![Resultado](<evidencias/correo llegando tanto SNS y SES.png>)
-
-### 8. Análisis de Costos ($0.06 USD)
-![Costos](<evidencias/costo estimado.png>)
+---
+*Nota: Si las imágenes no cargan directamente, haga clic en los enlaces de arriba para ver la captura original.*
