@@ -345,6 +345,62 @@ The project successfully demonstrates the implementation of a fully serverless s
 - Cloud Security Fundamentals
 - Technical Documentation
 
+  ---
+
+# 📚 Challenges & Lessons Learned
+
+## Challenges
+
+During the development of this project, several technical challenges were encountered:
+
+- Configuring IAM roles with the correct permissions for secure communication between AWS services.
+- Understanding the interaction between EventBridge, Lambda, SNS, SES, and DynamoDB.
+- Configuring Amazon SES for email verification and testing.
+- Designing an event-driven workflow using fully managed AWS services.
+
+## Lessons Learned
+
+This project allowed me to strengthen both my cloud computing and software development skills.
+
+Key learnings include:
+
+- Understanding the principles of Serverless Architecture.
+- Building event-driven applications using AWS managed services.
+- Managing permissions with AWS IAM following security best practices.
+- Integrating multiple AWS services into a single automated workflow.
+- Improving technical documentation and project organization using GitHub.
+
+  ---
+
+# 🔮 Future Improvements
+
+Several enhancements could be implemented to evolve this project into a production-ready solution:
+
+- Integrate a real flight price API instead of simulated data.
+- Develop a web dashboard for user subscription management.
+- Implement authentication using Amazon Cognito.
+- Deploy the infrastructure using AWS CloudFormation or Terraform.
+- Add monitoring and logging with Amazon CloudWatch.
+- Implement CI/CD pipelines using GitHub Actions.
+- Store configuration values using AWS Systems Manager Parameter Store.
+- Containerize additional services if the application grows in complexity.
+
+  ---
+
+# 🏛️ Architecture Decisions
+
+The following architectural decisions were made to ensure the solution remains scalable, maintainable, and cost-effective.
+
+| Decision | Reason |
+|----------|--------|
+| Serverless Architecture | Eliminates the need to manage servers and reduces operational costs. |
+| Amazon EventBridge | Provides a reliable and fully managed scheduler for automated executions. |
+| AWS Lambda | Executes business logic on demand and automatically scales based on workload. |
+| Amazon DynamoDB | Delivers low-latency performance and integrates seamlessly with serverless applications. |
+| Amazon SNS | Decouples services by publishing notification events. |
+| Amazon SES | Enables reliable and low-cost email delivery. |
+| AWS IAM | Ensures secure communication between AWS services following the principle of least privilege. |
+
 ## 🛠️ technologies used
 - **language:** Python 3.x
 - **Services Cloud:** AWS Lambda, DynamoDB, SES, SNS, EventBridge.
