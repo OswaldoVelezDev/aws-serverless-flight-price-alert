@@ -1,4 +1,4 @@
-# ✈️ Proyecto: ✈️ AWS Serverless Flight Price Alert System
+# ✈️ Proyect: ✈️ AWS Serverless Flight Price Alert System
 
 This project is a serverless solution built on Amazon Web Services (AWS) that monitors simulated flight prices and automatically sends email notifications when a lower fare is detected.
 
