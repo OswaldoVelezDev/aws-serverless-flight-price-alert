@@ -1,8 +1,20 @@
 # ✈️ AWS Serverless Flight Price Alert System
 
-Este proyecto implementa una solución serverless sobre Amazon Web Services (AWS) que monitorea precios simulados de vuelos y envía automáticamente una notificación por correo electrónico cuando detecta una disminución en la tarifa.
+> A serverless application built on AWS that monitors simulated flight prices and automatically notifies users by email when a lower fare is detected.
 
-La solución fue desarrollada utilizando una arquitectura basada en eventos (Event-Driven Architecture), integrando AWS Lambda, Amazon EventBridge, Amazon DynamoDB, Amazon SNS y Amazon SES para automatizar el procesamiento y el envío de notificaciones sin necesidad de administrar servidores.
+![AWS](https://img.shields.io/badge/AWS-Cloud-orange?logo=amazonaws)
+![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)
+![AWS Lambda](https://img.shields.io/badge/AWS-Lambda-FF9900?logo=awslambda)
+![Amazon DynamoDB](https://img.shields.io/badge/Amazon-DynamoDB-4053D6?logo=amazondynamodb)
+![Amazon EventBridge](https://img.shields.io/badge/Amazon-EventBridge-FF4F8B)
+![Amazon SNS](https://img.shields.io/badge/Amazon-SNS-FF9900)
+![Amazon SES](https://img.shields.io/badge/Amazon-SES-232F3E)
+![Serverless](https://img.shields.io/badge/Architecture-Serverless-success)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+---
+
+## 📖 Project Overview
 
 ## 📸 Evidencias del Proyecto
 
