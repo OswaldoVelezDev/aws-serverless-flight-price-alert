@@ -13,8 +13,6 @@
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 ---
-
-## 📖 Project Overview
 ## 📖 Project Overview
 
 This project implements a **serverless cloud solution** on **Amazon Web Services (AWS)** that monitors simulated flight prices and automatically notifies users by email when a lower fare is detected.
