@@ -244,18 +244,79 @@ Execute the Lambda function manually to verify the complete workflow.
 
 After deployment, Amazon EventBridge automatically triggers the monitoring process according to the configured schedule.
 
-## 📸 Evidencias del Proyecto
+---
 
-Haga clic en los siguientes enlaces para ver las capturas de pantalla del despliegue técnico:
+# 📸 Project Evidence
 
-1. [📂 Arquitectura del Sistema](Evidencias/Diagrama_AWS.png)
-2. [📂 Configuración de Permisos IAM](Evidencias/se_agregan_los_permisos.png)
-3. [📂 Base de Datos DynamoDB](Evidencias/tablas_pobladas.png)
-4. [📂 Lógica en AWS Lambda](evidencias/escribimos_la_funcion_lambda.png)
-5. [📂 Disparador EventBridge](Evidencias/trigger_y_conexion_verificados.png)
-6. [📂 Prueba de Envío SES](Evidencias/mostrando_correos_SES.png)
-7. [📂 Alertas SNS y SES](Evidencias/correo_llegando_tanto_SNS_y_SES.png)
-8. [📂 Análisis de Costos](Evidencias/costo_estimado.png)
+The following screenshots document the deployment and validation of the solution in AWS.
+
+## 🏗️ Solution Architecture
+
+![Architecture](Evidencias/Diagrama_AWS.png)
+
+High-level architecture showing the interaction between Amazon EventBridge, AWS Lambda, Amazon DynamoDB, Amazon SNS and Amazon SES.
+
+---
+
+## 🔐 IAM Configuration
+
+![IAM](Evidencias/se_agregan_los_permisos.png)
+
+IAM roles and permissions configured following the principle of least privilege, allowing secure communication between AWS services.
+
+---
+
+## 🗄️ Amazon DynamoDB
+
+![DynamoDB](Evidencias/tablas_pobladas.png)
+
+DynamoDB stores user subscriptions and simulated flight monitoring data.
+
+---
+
+## ⚡ AWS Lambda
+
+![Lambda](Evidencias/escribimos_la_funcion_lambda.png)
+
+AWS Lambda contains the business logic responsible for processing flight prices and coordinating the serverless workflow.
+
+---
+
+## ⏰ Amazon EventBridge
+
+![EventBridge](Evidencias/trigger_y_conexion_verificados.png)
+
+Amazon EventBridge automatically triggers the Lambda function according to the configured schedule.
+
+---
+
+## 📧 Amazon SES
+
+![SES](Evidencias/mostrando_correos_SES.png)
+
+Amazon SES is configured to send email notifications when a lower flight price is detected.
+
+---
+
+## 📢 Amazon SNS
+
+![SNS](Evidencias/correo_llegando_tanto_SNS_y_SES.png)
+
+Amazon SNS publishes notification events before the email is delivered through Amazon SES.
+
+---
+
+## 💰 Cost Estimation
+
+![Cost](Evidencias/costo_estimado.png)
+
+AWS Cost Explorer was used to estimate the monthly operational cost of the solution, demonstrating the cost efficiency of a serverless architecture.
+
+---
+
+## 📁 Additional Deployment Evidence
+
+The repository also includes more than **30 deployment screenshots** documenting each configuration step performed during the implementation of the project.
 
 ---
 
