@@ -15,6 +15,19 @@
 ---
 
 ## 📖 Project Overview
+## 📖 Project Overview
+
+This project implements a **serverless cloud solution** on **Amazon Web Services (AWS)** that monitors simulated flight prices and automatically notifies users by email when a lower fare is detected.
+
+The application follows an **Event-Driven Architecture**, where Amazon EventBridge triggers AWS Lambda functions responsible for processing flight data, evaluating price changes, storing information in Amazon DynamoDB, and sending notifications through Amazon SNS and Amazon SES.
+
+The solution was designed to demonstrate how AWS managed services can be integrated to build scalable, cost-effective, and fully serverless applications without managing traditional servers.
+
+### Business Scenario
+
+Many travelers miss airline promotions because checking ticket prices manually is time-consuming and inefficient.
+
+This project simulates an automated monitoring service that continuously evaluates flight prices and immediately notifies subscribed users whenever a lower price is available.
 
 ## 📸 Evidencias del Proyecto
 
