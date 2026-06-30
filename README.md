@@ -29,6 +29,37 @@ Many travelers miss airline promotions because checking ticket prices manually i
 
 This project simulates an automated monitoring service that continuously evaluates flight prices and immediately notifies subscribed users whenever a lower price is available.
 
+---
+# 🏗️ Solution Architecture
+
+The application is built following a **serverless event-driven architecture** using fully managed AWS services.
+
+Instead of relying on traditional servers, the system reacts automatically to scheduled events, processes flight information, stores data, and sends email notifications without requiring infrastructure management.
+
+This architecture provides:
+
+- High scalability
+- Low operational cost
+- Automatic execution
+- Minimal infrastructure management
+- Easy maintenance
+- High availability
+
+The following AWS services are integrated to build the complete solution:
+
+| AWS Service | Purpose |
+|------------|---------|
+| Amazon EventBridge | Triggers scheduled events to start the monitoring process. |
+| AWS Lambda | Executes the application logic and processes flight information. |
+| Amazon DynamoDB | Stores user subscriptions and flight monitoring data. |
+| Amazon SNS | Publishes notification events. |
+| Amazon SES | Sends email alerts to subscribed users. |
+| AWS IAM | Manages permissions and secure access between AWS services. |
+
+## 📐 Architecture Diagram
+
+> The complete architecture diagram will be added in the next section.
+
 ## 📸 Evidencias del Proyecto
 
 Haga clic en los siguientes enlaces para ver las capturas de pantalla del despliegue técnico:
