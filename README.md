@@ -1,4 +1,4 @@
-# ✈️ Sistema Serverless de Alertas de Precios de Vuelos con AWS
+# ✈️ AWS Serverless Flight Price Alert System
 
 Este proyecto implementa una solución serverless sobre Amazon Web Services (AWS) que monitorea precios simulados de vuelos y envía automáticamente una notificación por correo electrónico cuando detecta una disminución en la tarifa.
 
