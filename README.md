@@ -406,7 +406,7 @@ The following architectural decisions were made to ensure the solution remains s
 - **Services Cloud:** AWS Lambda, DynamoDB, SES, SNS, EventBridge.
 - **Security:** IAM Roles con políticas de mínimo privilegio.
 
-- [📄 Descargar Documentación completa en pdf](./aws-serverless-flight-price-alert
+- [📄 Descargar Documentación completa en pdf](
 /Documentacion_Tecnica_Avianca.pdf)
 
 ---
